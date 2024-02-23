@@ -1,0 +1,258 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Hey", "Hello"],
+         "responses": ["Hello!\n Please Select Any One School\n 1.School Of Behavioural Science\n 2.School Of Cyber Security And Digital Forensic\n 3.School Of Engineering and Technology\n 4.School Of Forensic Science\n 5.School Of Law Forensic Justice And Policies Studies\n 6.School Of Management Studies\n 7.School Of Medico Legl Studies\n 8.School Of Pharmacy\n 9.School Of Police Science And Security Studies"]
+        },
+        {"tag": "School OF Behavioural Science",
+         "patterns": ["1"],
+         "responses": ["Please Enter Course Code\n BS1 - Msc CLinical Psychology\n BS2 - MSc Neuropsychology\n BS3 - M.Phill. Clinical Psychology\n BS4 - Msc Forensic Psychology\n BS5 - MA Criminology\n BS6 - BA-MA Criminology"],
+         "context_set": ""
+        },
+        {"tag": "School Of Cyber Security And Digital Forensic",
+         "patterns": ["2"],
+         "responses": ["Please Enter Course Code\n CD1 - Mtech Cyber Security\n CD2 - M.Sc Cyber Security\n CD3 - M.Sc Digital Forensic Science and Information Security\n  CD4 - M.Tech. Robotics and Automation\n CD5 -  M.Tech. Applied Data Science and Artificial Intelligence\n CD6 - B.Tech - M.Tech. Computer Science & Engineering (Cyber Security)"],
+         "context_set": ""
+        },
+        {"tag": "School Of Engeering And Technology",
+         "patterns": ["3"],
+         "responses": ["Please Enter Course Code\n E1 - M.Sc. Food Technology\n E2 - M.Sc. Nanotechnology\n E3 - M. Tech. Civil Engineering "],
+         "context_set": ""
+        },
+        {"tag": "School Of Forensic Science",
+                
+         "patterns": ["4"],
+         "responses": ["Please Enter Course Code\n FS1 - B.Sc. - M.Sc. Forensic Science\n FS2 - M.Sc. Forensic Science\n FS3 - M.Sc. Forensic Biotechnology\n FS4 - M.Sc. Multimedia Forensics\n e.M.A. Mass Communication and Forensic Journalism"],
+         "context_set": ""
+        },
+        {"tag": "School Of Law Forensic And Policy Studies",
+         "patterns": ["5"],
+         "responses": ["Please Enter Course Code\n L1 - B.Sc.;LL.B. (Hons.)\n L2 - LL.B.(Hons.)\n L3 - LL.M.(Criminal Law and Criminal Justice Administration)\n L4 - LL.M.( Cyber Law and Cyber Crime Investigation)"],
+         "context_set": ""
+        },
+      {"tag": "School of Management Studies",
+         "patterns": ["6"],
+         "responses": ["Please Enter Course Code\n MS1 - BBA-MBA\n MS2 - MBA Forensic Accounting and Fraud Investigation\n MS3 - MBA Cyber Security Management\n MS4 - MBA Hospital and Healthcare Management\n MS5 - MBA Business Analytics and Intelligence"],
+         "context_set": ""
+         },
+    {"tag": "School of Medico-legal studies",
+         "patterns": ["7"],
+         "responses": ["Please Enter Course Code\n MLS1 - M.Sc Toxicology\n MLS2 - M.Sc Forensic Nursing\n MLS3 - M.Sc Forensic Dentistry\n"],
+         "context_set": ""
+         },
+    {"tag": "School of Pharmacy",
+         "patterns": ["8"],
+         "responses": ["Please Enter Course Code\n P1 - M.Pharm Pharmaceutical Quality Assurance\n P2 - M.Pharm Forensic Pharmacy\n P3 - M.Sc Pharmaceutical Chemistry\n P4 - M.Sc Environmental Science\n  P5 - M.Sc Chemistry\n"],
+         "context_set": ""
+         },
+    {"tag": "School of Police science and Security Studies",
+         "patterns": ["9"],
+         "responses": ["Please Enter Course Code\n PS1 - M.Sc Homeland Security\n PS2 - M.A. Police & Security Studies\n"],
+         "context_set": ""
+         }, 
+         {"tag":"Msc CLinical Psycology",
+    "patterns":["BS1"],
+        "responses":["\n Type : PG \nDuration : 2 yrs \nSeats : 50 \nFees : 65000\n  "],
+        "context_set ":""
+        },
+        {"tag":"MSc Neuro Psycology",
+    "patterns":["BS2"],
+        "responses":["\n Type : PG \nDuration : 2 yrs \nSeats : 50 \nFees : 65000\n  "],
+        "context_set":""
+        },
+        {"tag":"M Phil CLinical Psycology",
+    "patterns":["BS3"],
+        "responses":["\n Type : PG \nDuration : 2 yrs \nSeats : 30 \nFees : 65000\n  "],
+        "context_set":""
+        },
+        {"tag":"Msc Forensic Psycology",
+    "patterns":["BS4"],
+        "responses":["\n Type : PG \nDuration : 2 yrs \nSeats : 40 \nFees : 60000\n  "],
+        "context_set":""
+        },
+        {"tag":"MA Criminology",
+    "patterns":["BS5"],
+        "responses":["\n Type : PG \nDuration : 2 yrs \nSeats : 40 \nFees : 60000\n  "],
+         "context_set":""
+        },
+        {"tag":"BA MA Criminology",
+    "patterns":["BS6"],
+        "responses":["\n Type : Integrated \nDuration : 5 yrs \nSeats : 30 \nFees : 60000\n  "],
+        "context_set":""
+        },
+        {
+        "tag":"Mtech Cyber Security",
+    "patterns":["CD1"],
+        "responses":["\n Type : PG \nDuration : 2 yrs \nSeats : 50 \nFees : 90000\n  "],
+        "context_set":""
+        },
+        {"tag":"Msc Cyber Security",
+    "patterns":["CD2"],
+        "responses":["\n Type : PG \nDuration : 2 yrs \nSeats : 50 \nFees : 90000\n  "],
+         "context_set":""
+        },
+        {"tag":"Msc DFIS",
+    "patterns":["CD3"],
+        "responses":["\n Type : PG \nDuration : 2 yrs \nSeats : 40 \nFees : 90000\n  "],
+        "context_set":""
+        },
+        {"tag":"Mtech Robotics and Automation",
+    "patterns":["CD4"],
+        "responses":["\n Type : PG \nDuration : 2 yrs \nSeats : 50 \nFees : 90000\n  "],
+         "context_set":""
+        },
+        {"tag":"Mtech Applied Data Sci and AI",
+    "patterns":["CD5"],
+        "responses":["\n Type : PG \nDuration : 2 yrs \nSeats : 40 \nFees : 90000\n  "],
+        "context_set":""
+        },
+        {"tag":"Btech Mtech  - Cyber Security",
+    "patterns":["CD6"],
+        "responses":["\n Type : Integrated \nDuration : 5 yrs \nSeats-60 \nFees-75000\n  "],
+        "context_set":""
+        },
+        {"tag":"Msc Food Technology",
+    "patterns":["E1"],
+        "responses":["\n Type : PG \nDuration : 2 yrs \nSeats : 30 \nFees : 65000\n  "],
+         "context_set":""
+        },
+        {"tag":"Msc Nano Technology",
+    "patterns":["E2"],
+        "responses":["\n Type : PG \nDuration : 2 yrs \nSeats : 20 \nFees : 60000\n  "],
+         "context_set":""
+        },
+        {"tag":"Mtech Civil Engineering",
+    "patterns":["E3"],
+        "responses":["\n Type : PG \nDuration : 2 yrs \nSeats : 20 \nFees : 65000\n  "],
+        "context_set":""
+        },
+        {"tag":"BSC Msc FS",
+    "patterns":["FS1"],
+        "responses":["\n Type : Integrated \nDuration : 5 yrs \nSeats : 40 \nFees : 60000\n  "],
+        "context_set":""
+        },
+        { "tag":"Msc Forensic Science",
+    "patterns":["FS2"],
+        "responses":["\n Type : PG \nDuration : 2 yrs \nSeats : 20 \nFees : 65000\n  "],
+        "context_set":""
+        },
+        {"tag":"Msc Forensic Bio technology",
+    "patterns":["FS3"],
+        "responses":["\n Type : PG \nDuration : 2 yrs \nSeats : 20 \nFees : 65000\n  "],
+         "context_set":""
+        },
+        {"tag":"Msc Multimedia forensic",
+    "patterns":["FS4"],
+        "responses":["\n Type : PG \nDuration : 2 yrs \nSeats : 20 \nFees : 40000\n  "],
+        "context_set":""
+        },
+        {"tag":"MA Mass Comm and Forensic Journalism",
+    "patterns":["FS5"],
+        "responses":["\n Type : PG \nDuration : 2 yrs \nSeats : 20 \nFees : 60000\n  "],
+        "context_set":""
+        },
+        {"tag": "Bsc LLB Honours ",
+        "patterns": ["L1"],
+        "responses": ["\n Type : Integrated \nDuration : 5 years \nSeat : 40 \nFees : 65000\n "],
+        "context_set": ""
+        },
+        {"tag": "LLB Honours ",
+        "patterns": ["L2"],
+        "responses": ["\n Type : UG \nDuration : 3 years \nSeat : 40 \nFees : 65000\n "],
+        "context_set": ""
+        },
+        {"tag": "LL.M. Criminal law and criminal justice and Policy studies ",
+        "patterns": ["L3"],
+        "responses": ["\n Type : PG \nDuration : 1 years \nSeat : 20 \nFees : 65000\n "],
+        "context_set": ""
+        },
+        {"tag": "LL.M. Cyber law and Cyber crime investigation",
+        "patterns": ["L4"],
+        "responses": ["\n Type : PG \nDuration : 1 years \nSeat : 20 \nFees : 65000\n "],
+        "context_set": ""
+        },
+        {"tag": "BBA MBA ",
+        "patterns": ["MS1"],
+        "responses": ["\n Type : Integrated \nDuration : 5 years \nSeat : 40 \nFees : 65000\n "],
+        "context_set": ""
+        },
+        {"tag": "MBA forensic accounting and fraud investigation ",
+        "patterns": ["MS2"],
+        "responses": ["\n Type : PG \nDuration : 2 years \nSeat : 30 \nFees : 75000\n "],
+        "context_set": ""
+        },
+        {"tag": "MBA cyber security Management ",
+        "patterns": ["MS3"],
+        "responses": ["\n Type : PG \nDuration : 2 years \nSeat : 30 \nFees : 75000\n "],
+        "context_set": ""
+        },
+        {"tag": "MBA hospital and healthcare management ",
+        "patterns": ["MS4"],
+        "responses": ["\n Type : PG \nDuration : 2 years \nSeat : 30 \nFees : 75000\n "],
+        "context_set": ""
+        },
+        {"tag": "MBA Business Analytics and Intelligence ",
+        "patterns": ["MS5"],
+        "responses": ["\n Type : PG \nDuration : 2 years \nSeat : 30 \nFees : 75000\n "],
+        "context_set": ""
+        },
+        {"tag": "Msc Toxicology ",
+        "patterns": ["MLS1"],
+        "responses": ["\n Type : PG \nDuration : 2 years \nSeat : 20 \nFees : 65000\n "],
+        "context_set": ""
+        },
+        {"tag": "Msc Forensic Nursing",
+       "patterns": ["MLS2"],
+       "responses": ["\n Type : PG \nDuration : 2 years \nSeat : 20 \nFees : 65000\n "],
+       "context_set": ""
+        },
+        {"tag": "Msc Forensic Dentistry ",
+       "patterns": ["MLS3"],
+       "responses": ["\n Type : PG \nDuration : 2 years \nSeat : 20 \nFees : 65000\n "],
+       "context_set": ""
+         },
+        {"tag": "M Pharm. Pharmaceutical Quality Assurance ",
+         "patterns": ["P1"],
+         "responses": ["\n Type : PG \nDuration : 2 years \nSeat : 15 \nFees : 65000\n "],
+         "context_set": ""
+        },
+        {"tag": "M Pharm Forensic Pharmcy",
+         "patterns": ["P2"],
+         "responses": ["\n Type : PG \nDuration : 2 years \nSeat : 30 \nFees : 65000\n "],
+         "context_set": ""
+        },
+        {"tag": "Msc Pharmaceutical Chemistry",
+         "patterns": ["P3"],
+         "responses": ["\n Type : PG \nDuration : 2 years \nSeat : 15 \nFees : 65000\n "],
+         "context_set": ""
+        },
+        {"tag": "Msc Environmental Science",
+         "patterns": ["P4"],
+         "responses": ["\n Type : PG \nDuration : 2 years \nSeat : 15 \nFees : 65000\n"],
+         "context_set": ""
+        },
+        {"tag": "MSc Chemistry",
+         "patterns": ["P5"],
+         "responses": ["\n Type : PG \nDuration : 2 years \nSeat : 15 \nFees : 65000 "],
+         "context_set": ""
+        },
+  
+        {"tag": "MSc Homeland Security",
+         "patterns": ["PS1"],
+         "responses": ["\n Type : PG \nDuration : 2 years \nSeat : 30 \nFees : 65000 "],
+         "context_set": ""
+        },
+        {"tag": "MA Police and Security Studies",
+        "patterns": ["PS2"],
+        "responses": ["\n Type: PG \nDuration : 2 years \nSeat : 20 \nFees : 65000 "],
+        "context_set": ""
+       },  
+        {"tag": "goodbye",
+         "patterns": ["Bye", "Goodbye"],
+         "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+        }
+]
+}
